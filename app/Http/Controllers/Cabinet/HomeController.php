@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
-use App\User;
+namespace App\Http\Controllers\Cabinet;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 class HomeController extends Controller
 {
     /**
@@ -12,7 +12,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-      //  $this->middleware('auth');
+          $this->middleware('auth');
     }
     /**
      * Show the application dashboard.
@@ -21,6 +21,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('cabinet.home');
     }
 }

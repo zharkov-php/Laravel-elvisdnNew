@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
- <h1>Главная страница</h1>
+ <h1>Вы залогинены</h1>
                 </div>
             </div>
         </div>
