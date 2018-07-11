@@ -76,7 +76,9 @@
                     @endauth
                 </div>
             @endif
-
+          
+          @yield('breadcrums')
+          
             <div class="content">
                 <div class="title m-b-md">
                     Pisun

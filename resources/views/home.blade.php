@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('breadcrumbs', '')
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -13,7 +15,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
- <h1>Главная страница</h1>
+ <h1>Главная страница!!!</h1>
                 </div>
             </div>
         </div>
